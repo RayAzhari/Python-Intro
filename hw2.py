@@ -1,3 +1,7 @@
+# Author: Rayan Azhari
+# File: hw2.py
+# Description: blah
+
 import random
 
 words = ["cat", "baba", "dog", "hydrogen", "dumb", "door", "rectangle", "progamming", "computer", "ten"]
