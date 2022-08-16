@@ -13,6 +13,10 @@ d = int(b**2) - int(4*a*c)
 
 sol1 = int(-b-(d))/(2*a)
 sol2 = int(-b+(d))/(2*a)
+if d < 0:
+    print ("This has no solutions")
+else:
 
-print(sol1)
-print(sol2)
+
+    print(sol1)
+    print(sol2)
