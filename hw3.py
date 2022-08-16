@@ -1,4 +1,6 @@
-
+# Rayan Azhari
+# File: hw3.py
+# Colaborator: Ali Azhari
 
 print ("Hello there, please enter the a of the quadratic equation")
 a = int(input())
