@@ -9,16 +9,18 @@ b = int(input())
 print ("Finally, please enter the c")
 c = int(input())
 
-
+import math
 
 d = int(b**2) - int(4*a*c)
 
-sol1 = int(-b-(d))/(2*a)
-sol2 = int(-b+(d))/(2*a)
+
+
 if d < 0:
     print ("This has no solutions")
+elif d == 0:
+    s = -b/(2*a)
+    print("The solution is" + str(s))
 else:
-
-
-    print(sol1)
-    print(sol2)
+    sol1 = int(-b-math.sqrt(d))/(2*a)
+    sol2 = int(-b+math.sqrt(d))/(2*a)
+    print("The solutions are  " + str(sol1) +   " " + str(sol2))
